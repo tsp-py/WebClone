@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    background-color: rgb(24, 24, 27);
+}
+.header{
+    background-color: rgb(39, 39, 42);
+    display: inline-flex;
+    width: 90%;
+    height: 120px;
+    border: solid 1px rgb(39, 39, 42);
+    margin-left: 60px;
+    
+}
+.mainlogo
+{
+    /* border: 1px solid red; */
+    padding: 0;
+    width:250px;
+    background-color: rgb(39, 39, 42);
+    
+}
+.logo{
+    background: rgb(39, 39, 42);
+    /* margin-left: 30px; */
+    margin-top: 50px;
+}
+input{
+    height: 35px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border: 1px white solid;
+    
+}
+#search_button{
+    width: 40px;
+    height: 40px;
+    margin-top: 50px;
+}
+.typeofmovie1{
+    display: inline-flex;
+    background: #d35151;;
+    margin-top: 50px;
+    height:max-content;
+    width: 100px;
+    padding: 10px;
+    padding-left: 30px;
+    border-radius: 10px 10px ;
+}
+.typeofmovie1 a{
+    background: #d35151;;
+    color: aliceblue;
+    text-decoration:none;
+}
+.typeofmovie2 a{
+    background-color: #228B22;
+    color: aliceblue;
+    text-decoration:none;
+}
+.typeofmovie2{
+    display: inline-flex;
+    margin-top: 50px;
+    width: 90px;
+    text-align: center;
+    height:max-content;
+    border-radius: 10px 10px;
+    padding: 10px;
+    padding-left: 30px;
+    background: #228B22;
+}
+.same_link{
+    background: rgb(39, 39, 42);
+    margin-left:130px;
+    /* align-content: center; */
+    
+}
+.parts{
+    color: white;
+    display: inline-flex;
+    /* height: 50px; */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 60px;
+    justify-content: end
+}
+.section{
+    font-family: Arial, Helvetica, sans-serif;
+    width:auto;
+    /* height: 50px; */
+    position: relative;
+}
+select{
+    padding: 10px;
+    padding-left: 20px;
+    color: white;
+}
+#home{
+    border: 1px solid white;
+    padding-top:8px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#ad{
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 220px;
+    width: 500px;
+}
+.second_bar{
+    display: inline-flex;
+    margin: 10px; 
+    gap: 5px;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+.bt{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    font-size: 16px;
+    border-radius:10%;
+    color: white;
+}
+.bt-telegram{
+    text-transform: uppercase;
+    background: rgb(32, 178, 225);
+}
+.bt-bar-mov-type {
+    background-color: #555555;
+    border: 1px solid #e7e7e7;
+}
+.bt-4k-mov{
+    display: inline-block;
+    text-transform: uppercase;
+    background: #ffaa2c;
+    border-color: #edba26;
+    color: black;
+}
+.note{
+    /* display:inline-block; */
+    background-color: #2fb986;
+    width: 1150px;
+    margin-left: 60px ;
+    font-size: 16px;
+    text-align: center;
+    align-content: center;
+    height: 30px;
+    border-radius: 6px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+strong{
+    background-color: #2fb986;
+
+}
+.note > button{
+    float: right; 
+    border: none;
+    background-color: none;
+    background: none;
+    color: white;
+    mix-blend-mode: color-dodge;
+
+}
+.mov-home{
+    display: flex;
+    gap: 25px;
+    /* padding-bottom:  5px; */
+    margin-top: 30px;
+    justify-content: center;
+}
+.hor-mov1{
+    background-color: rgb(39, 39, 42);
+    margin-bottom: 25px;
+    /* row-gap: 10px; */
+    color: white;
+    text-wrap:wrap;
+    border: 1px solid white;
+    width: 202px;
+    height: 450px;
+    font-size: 15px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+}
+.hor-mov1 img{
+    border-radius: 10px;
+    width: 100%;
+    /* border:1px solid #228B22; */
+}
+
+.hor-mov1 div{
+    text-align: center;
+    
+    background: rgb(39, 39, 42);
+}
+.pagenum{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    height: 60px;
+    width: 1170px;
+    border: 1px solid rgb(39, 39, 42);
+    background: rgb(39, 39, 42);
+    border-radius: 0px 0px 10px 10px;
+    /* margin: 20px; */
+    padding-top:20px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    gap: 5px;
+}
+.numberbox{
+ 
+ border: 1px solid rgb(103, 94, 94);
+ border-radius: 8px;
+ background:rgb(103, 94, 94);   
+ padding: 15px 20px;
+ color: aliceblue;
+ font-weight: bold;
+ text-align: center;
+
+ /* padding-right: 30px; */
+}
